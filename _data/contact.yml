@@ -1,0 +1,44 @@
+persons:
+  -
+    email: 'samantha.t@sliit.lk'
+    phone: '+94 117 544 601'
+    main: true
+    name: "Prof. Samantha Thelijjagoda"
+    title: "Supervisor"
+    image: "images/team/samantha-thelijjagoda.png"
+  -
+    email: 'dilini.rajapaksha@rmit.edu.au'
+    phone: 'N/A'
+    main: false
+    name: "Dr. Dilini Rajapaksha"
+    title: "External-Supervisor"
+    image: "images/team/dilini-rajapaksha.png"
+  -
+    email: 'it19129204@my.sliit.lk'
+    phone: 'N/A'
+    main: false
+    name: "Rukshan Jayasekara"
+    title: "Team Leader / Undergraduate"
+    image: "images/team/rukshan-jayasekara.png"
+  -
+    email: 'it19147024@my.sliit.lk'
+    phone: 'N/A'
+    main: false
+    name: "Sahan Kariyawasam"
+    title: "Developer / Undergraduate"
+    image: "images/team/sahan-kariyawasam.png"
+  -
+    email: 'it19126234@my.sliit.lk'
+    phone: 'N/A'
+    main: false
+    name: "Sachini Jayasinghe"
+    title: "Developer / Undergraduate"
+    image: "images/team/sachini-jayasingha.png"
+  -
+    email: 'it19121352@my.sliit.lk'
+    phone: 'N/A'
+    main: false
+    name: "Navodya Kudarachchi"
+    title: "Developer / Undergraduate"
+    image: "images/team/navodya-kudarachchi.png"
+contact_button_link: 'contact'

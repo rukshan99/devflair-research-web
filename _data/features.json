@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Personality Prediction",
+    "description": "We use NLP and ML based approaches to predict Big-Five personality traits based on LinkedIn data and questionnaires.",
+    "image": "images/features/noun_branding_1885335.svg"
+  },
+  {
+    "title": "Technical Skill Analyzing",
+    "description": "We use technical quizes and GitHub data to analyze and evaluvate technical skill aspects of the job candidates.",
+    "image": "images/features/noun_3d modeling_1885342.svg"
+  },
+  {
+    "title": "Ranking and Recommendation",
+    "description": "We give recruiter the opportunity to identify the best candidates based on personality and technical skills.",
+    "image": "images/features/noun_The Process_1885341.svg"
+  }
+]
