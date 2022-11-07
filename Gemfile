@@ -8,3 +8,4 @@ gem "puma"
 # gem 'jekyll-gist'
 # gem 'jekyll-remote-include'
 gem "webrick", "~> 1.7"
+gem 'github-pages'
