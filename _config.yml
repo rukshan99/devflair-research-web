@@ -1,4 +1,4 @@
-baseurl: 'devflair-research-web'
+baseurl: '/devflair-research-web'
 exclude: ['README.md']
 permalink: pretty
 title: 'DevFlair'
