@@ -1,20 +1,10 @@
 <div id="main-menu" class="main-menu">
-  {% assign mainmenu = site.data.menus.footer | where: "desktop", empty  | sort: 'weight'  %}
+  {% assign mainmenu = site.data.menus.main | where: "desktop", empty | sort:
+  'weight' %}
   <ul>
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
-      {% if item.dropdowns | length > 0 %}
-      <div class="dropdown">
-        <a href="#" onclick="myFunction(this);" class="dropbtn">{{ item.name }}</a>
-        <div id="myDropdown" class="dropdown-content">
-          {% for dropdown in item.dropdowns %}
-            <a href="{{dropdown.url}}">{{dropdown.name}}</a>
-          {% endfor %}
-        </div>
-      </div>
-      {% else %}
-      <a href="{{ item.url | relative_url }}"}>{{ item.name }}</a>
-      {% endif %}
+      <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
     </li>
     {% endfor %}
   </ul>
@@ -24,7 +14,7 @@
   /* When the user clicks on the button,
   toggle between hiding and showing the dropdown content */
   function myFunction(el) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var dropdowns = document.getElementsByClassName('dropdown-content');
     var i;
     for (i = 0; i < dropdowns.length; i++) {
       var openDropdown = dropdowns[i];
@@ -32,13 +22,15 @@
         openDropdown.classList.remove('show');
       }
     }
-    el.parentElement.getElementsByClassName("dropdown-content" )[0].classList.toggle("show");
+    el.parentElement
+      .getElementsByClassName('dropdown-content')[0]
+      .classList.toggle('show');
   }
 
   // Close the dropdown if the user clicks outside of it
-  window.onclick = function(event) {
+  window.onclick = function (event) {
     if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var dropdowns = document.getElementsByClassName('dropdown-content');
       var i;
       for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
@@ -47,5 +39,5 @@
         }
       }
     }
-  }
+  };
 </script>
